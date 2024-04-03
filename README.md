@@ -12,16 +12,16 @@ Once the code runs, the producer will start with a data buffer containing 0, 1. 
 
 Unexpected behavior:
 
-    For the most part, everything runs as intended. The only strange bug that I was unable to fix was where the terminal prints out a new terminal/command line (For lack of a better word). Here is an example:
+For the most part, everything runs as intended. The only strange bug that I was unable to fix was where the terminal prints out a new terminal/command line (For lack of a better word). Here is an example:
 
-        Producer copied data
-        Received integers: 0 1
-        Producer copied data
-        @Jlopez2024 ➜ /workspaces/OS-Assignment1 (main) $ Received integers: 1 2
-        Producer copied data
-        Received integers: 2 3
-        Producer copied data
-        Received integers: 3 4
+    Producer copied data
+    Received integers: 0 1
+    Producer copied data
+    @Jlopez2024 ➜ /workspaces/OS-Assignment1 (main) $ Received integers: 1 2
+    Producer copied data
+    Received integers: 2 3
+    Producer copied data
+    Received integers: 3 4
 
-    It doesn't seem to effect anything, but it is a bit annoying to look at.
+It doesn't seem to effect anything, but it is a bit annoying to look at.
 
