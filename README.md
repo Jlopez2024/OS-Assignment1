@@ -10,7 +10,7 @@ If the code needs recompiled, run the code specified in the assignment doc:
 
 Once the code runs, the producer will start with a data buffer containing 0, 1. After each critical section modification that the producer performs, the data within the buffer will be incremented. This makes it easier to see how the consumer accesses the critical section to print the data within shared memory. I set the loop to run for 10 iterations because it seems that ctrl-c can't kill processes that manipulate shared memory. After the loops have finished, hit enter and the process will end and the terminal will allow for input again.
 
-<h2>Unexpected behavior:<h2>
+<h2>Unexpected behavior:</h2>
 
 For the most part, everything runs as intended. The only strange bug that I was unable to fix was where the terminal prints out a new terminal/command line (For lack of a better word). Here is an example:
 
