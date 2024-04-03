@@ -1,2 +1,2 @@
-# OS-Assignment1
+# OS Assignment1
 First assignment of Operating Systems course
